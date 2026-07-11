@@ -1,18 +1,18 @@
-export type Lang = "en" | "ar"
+export type Lang = "en" | "ar";
 
 export type MenuItem = {
-  en: string
-  ar: string
-  price: string
-  isForeign?: boolean
-}
+  en: string;
+  ar: string;
+  price: string;
+  isForeign?: boolean;
+};
 
 export type MenuCategory = {
-  id: string
-  en: string
-  ar: string
-  items: MenuItem[]
-}
+  id: string;
+  en: string;
+  ar: string;
+  items: MenuItem[];
+};
 
 export const translations = {
   en: {
@@ -25,7 +25,7 @@ export const translations = {
     heroTitle: "Tabounet Zebdine",
     heroBody:
       "Fresh from the clay oven, every single day. Manaqish, fekhara & Lebanese classics — made the way teta used to make them.",
-    footerTag: "Baked daily. Served with love. Lebanon.",
+    footerTag: "Authentic. Fresh. Lebanese.",
     brand: "Tabounet Zebdine",
   },
   ar: {
@@ -41,7 +41,7 @@ export const translations = {
     footerTag: "أصيل. طازج. لبناني.",
     brand: "طابونة زبدين",
   },
-} as const
+} as const;
 
 export const menuData: MenuCategory[] = [
   {
@@ -52,12 +52,32 @@ export const menuData: MenuCategory[] = [
       { en: "Thyme Manaqish", ar: "منقوشة زعتر", price: "150,000" },
       { en: "Cheese Manaqish", ar: "منقوشة جبنة", price: "450,000" },
       { en: "Meat Lahm Bi Ajeen", ar: "منقوشة لحمة بعجين", price: "450,000" },
-      { en: "Cheese & Ham Manaqish", ar: "منقوشة جبنة وجنبون", price: "500,000" },
+      {
+        en: "Cheese & Ham Manaqish",
+        ar: "منقوشة جبنة وجنبون",
+        price: "500,000",
+      },
       { en: "Kawarma Pie", ar: "فطيرة قاورما", price: "500,000" },
-      { en: "Labneh & Kawarma Manaqish", ar: "منقوشة لبنة وقاورما", price: "500,000" },
-      { en: "Kishk & Kawarma Manaqish", ar: "منقوشة كشك وقاورما", price: "700,000" },
-      { en: "Eggs & Kawarma Manaqish", ar: "منقوشة بيض بقاورما", price: "600,000" },
-      { en: "Cheese & Kawarma Manaqish", ar: "منقوشة جبنة وقاورما", price: "600,000" },
+      {
+        en: "Labneh & Kawarma Manaqish",
+        ar: "منقوشة لبنة وقاورما",
+        price: "500,000",
+      },
+      {
+        en: "Kishk & Kawarma Manaqish",
+        ar: "منقوشة كشك وقاورما",
+        price: "700,000",
+      },
+      {
+        en: "Eggs & Kawarma Manaqish",
+        ar: "منقوشة بيض بقاورما",
+        price: "600,000",
+      },
+      {
+        en: "Cheese & Kawarma Manaqish",
+        ar: "منقوشة جبنة وقاورما",
+        price: "600,000",
+      },
       { en: "Lebanese Pizza", ar: "بيتزا لبنانية", price: "800,000" },
     ],
   },
@@ -66,7 +86,11 @@ export const menuData: MenuCategory[] = [
     en: "Desserts",
     ar: "الحلويات",
     items: [
-      { en: "Cheese, Butter & Sugar Manaqish", ar: "منقوشة جبنة وزبدة وسكر", price: "500,000" },
+      {
+        en: "Cheese, Butter & Sugar Manaqish",
+        ar: "منقوشة جبنة وزبدة وسكر",
+        price: "500,000",
+      },
       { en: "Butter & Sugar", ar: "زبدة وسكر", price: "400,000" },
       { en: "Chocoba", ar: "شوكوبا", price: "400,000" },
     ],
@@ -77,11 +101,19 @@ export const menuData: MenuCategory[] = [
     ar: "مقبلات وجانبيات",
     items: [
       { en: "Taboon Bread Loaf", ar: "رغيف خبز طابونة", price: "100,000" },
-      { en: "Labneh Plate with 2 Bread Loaves", ar: "صحن لبنة مع ٢ رغيف", price: "600,000" },
+      {
+        en: "Labneh Plate with 2 Bread Loaves",
+        ar: "صحن لبنة مع ٢ رغيف",
+        price: "600,000",
+      },
       { en: "Tabbouleh Salad", ar: "صحن تبولة", price: "500,000" },
       { en: "Stuffed Grape Leaves", ar: "صحن ورق عنب", price: "450,000" },
       { en: "Baked Potato Plate", ar: "صحن بطاطا مشوية", price: "450,000" },
-      { en: "Vegetable Platter with Olives", ar: "جاط خضار مع زيتون", price: "400,000" },
+      {
+        en: "Vegetable Platter with Olives",
+        ar: "جاط خضار مع زيتون",
+        price: "400,000",
+      },
       { en: "Mixed Nuts", ar: "بزورات", price: "300,000" },
     ],
   },
@@ -90,7 +122,11 @@ export const menuData: MenuCategory[] = [
     en: "Clay Pots (Fekhara)",
     ar: "فخارات",
     items: [
-      { en: "Eggs & Kawarma Clay Pot with 2 Bread Loaves", ar: "فخارة بيض وقاورما مع ٢ رغيف", price: "700,000" },
+      {
+        en: "Eggs & Kawarma Clay Pot with 2 Bread Loaves",
+        ar: "فخارة بيض وقاورما مع ٢ رغيف",
+        price: "700,000",
+      },
       { en: "Meat Clay Pot", ar: "فخارة لحمة", price: "900,000" },
       { en: "Chicken Clay Pot", ar: "فخارة دجاج", price: "900,000" },
     ],
@@ -108,15 +144,20 @@ export const menuData: MenuCategory[] = [
       { en: "Cup of Tea", ar: "كوب شاي", price: "100,000" },
       { en: "Cup of Coffee", ar: "فنجان قهوة", price: "100,000" },
       { en: "Arak Quarter", ar: "ربعية عرق", price: "$15", isForeign: true },
-      { en: "Whiskey Quarter (Red / Chivas)", ar: "ربعية ويسكي (Red / Chivas)", price: "$20 / $30", isForeign: true },
+      {
+        en: "Whiskey Quarter (Red / Chivas)",
+        ar: "ربعية ويسكي (Red / Chivas)",
+        price: "$20 / $30",
+        isForeign: true,
+      },
       { en: "Shisha", ar: "أركيلة", price: "800,000" },
       { en: "Extra Shisha Head", ar: "رأس أركيلة", price: "400,000" },
     ],
   },
-]
+];
 
 export function formatPrice(item: MenuItem, lang: Lang): string {
-  if (item.isForeign) return item.price
-  const currency = lang === "ar" ? "ل.ل." : "L.L."
-  return `${item.price} ${currency}`
+  if (item.isForeign) return item.price;
+  const currency = lang === "ar" ? "ل.ل." : "L.L.";
+  return `${item.price} ${currency}`;
 }
