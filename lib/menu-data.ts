@@ -24,7 +24,7 @@ export const translations = {
     viewMenu: "View the Menu",
     heroTitle: "Tabounet Zebdine",
     heroBody:
-      "Fresh from the clay oven, every single day. Manaqish, fekhara & Lebanese classics — made the way teta used to make them.",
+      "Authentic Lebanese cuisine, freshly prepared and served with timeless hospitality.",
     footerTag: "Authentic. Fresh. Lebanese.",
     brand: "Tabounet Zebdine",
   },
