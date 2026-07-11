@@ -24,8 +24,8 @@ export const translations = {
     viewMenu: "View the Menu",
     heroTitle: "Tabounet Zebdine",
     heroBody:
-      "Authentic Lebanese cuisine, freshly prepared and served with timeless hospitality.",
-    footerTag: "Authentic. Fresh. Lebanese.",
+      "Experience the True Taste of Lebanon. Authentic Lebanese cuisine, freshly prepared and served with timeless hospitality.",
+    footerTag: "Baked daily. Served with love. Lebanon.",
     brand: "Tabounet Zebdine",
   },
   ar: {
