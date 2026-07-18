@@ -106,6 +106,16 @@ export const menuData: MenuCategory[] = [
         ar: "صحن لبنة مع ٢ رغيف",
         price: "600,000",
       },
+      {
+        en: "Homos Plate with 2 Bread Loaves",
+        ar: "صحن حمص مع ٢ رغيف",
+        price: "500,000",
+      },
+      {
+        en: "Homos Plate with Qawarma & 2 Bread Loaves",
+        ar: "صحن حمص مع قاورما ومع ٢ رغيف",
+        price: "650,000",
+      },
       { en: "Tabbouleh Salad", ar: "صحن تبولة", price: "500,000" },
       { en: "Stuffed Grape Leaves", ar: "صحن ورق عنب", price: "450,000" },
       { en: "Baked Potato Plate", ar: "صحن بطاطا مشوية", price: "450,000" },
