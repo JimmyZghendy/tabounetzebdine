@@ -50,8 +50,8 @@ export const menuData: MenuCategory[] = [
     ar: "مناقيش ومعجنات",
     items: [
       { en: "Thyme Manaqish", ar: "منقوشة زعتر", price: "150,000" },
-      { en: "Cheese Manaqish", ar: "منقوشة جبنة", price: "450,000" },
-      { en: "Meat Lahm Bi Ajeen", ar: "منقوشة لحمة بعجين", price: "450,000" },
+      { en: "Cheese Manaqish", ar: "منقوشة جبنة", price: "400,000" },
+      { en: "Meat Lahm Bi Ajeen", ar: "منقوشة لحمة بعجين", price: "400,000" },
       {
         en: "Cheese & Ham Manaqish",
         ar: "منقوشة جبنة وجنبون",
@@ -78,7 +78,7 @@ export const menuData: MenuCategory[] = [
         ar: "منقوشة جبنة وقاورما",
         price: "600,000",
       },
-      { en: "Lebanese Pizza", ar: "بيتزا لبنانية", price: "800,000" },
+      { en: "Lebanese Pizza", ar: "بيتزا لبنانية", price: "700,000" },
     ],
   },
   {
@@ -91,8 +91,8 @@ export const menuData: MenuCategory[] = [
         ar: "منقوشة جبنة وزبدة وسكر",
         price: "500,000",
       },
-      { en: "Butter & Sugar", ar: "زبدة وسكر", price: "400,000" },
-      { en: "Chocoba", ar: "شوكوبا", price: "400,000" },
+      { en: "Butter & Sugar", ar: "زبدة وسكر", price: "300,000" },
+      { en: "Chocoba", ar: "شوكوبا", price: "300,000" },
     ],
   },
   {
