@@ -1,18 +1,18 @@
-"use client"
+"use client";
 
-import Image from "next/image"
-import { Search, Globe } from "lucide-react"
-import { translations, type Lang } from "@/lib/menu-data"
+import Image from "next/image";
+import { Search, Globe } from "lucide-react";
+import { translations, type Lang } from "@/lib/menu-data";
 
 type Props = {
-  lang: Lang
-  search: string
-  onSearch: (value: string) => void
-  onToggleLang: () => void
-}
+  lang: Lang;
+  search: string;
+  onSearch: (value: string) => void;
+  onToggleLang: () => void;
+};
 
 export function MenuHeader({ lang, search, onSearch, onToggleLang }: Props) {
-  const t = translations[lang]
+  const t = translations[lang];
 
   return (
     <header className="sticky top-0 z-40 bg-cream/90 backdrop-blur border-b border-charcoal/10">
@@ -20,7 +20,7 @@ export function MenuHeader({ lang, search, onSearch, onToggleLang }: Props) {
         <div className="flex items-center gap-3">
           <div className="w-11 h-11 rounded-full bg-card flex items-center justify-center stamp shrink-0 overflow-hidden">
             <Image
-              src="/logo.png"
+              src="/logo.jpeg"
               alt="Tabounet Zebdine logo"
               width={44}
               height={44}
@@ -76,5 +76,5 @@ export function MenuHeader({ lang, search, onSearch, onToggleLang }: Props) {
         </div>
       </div>
     </header>
-  )
+  );
 }

@@ -1,11 +1,11 @@
-"use client"
+"use client";
 
-import Image from "next/image"
-import { ArrowRight } from "lucide-react"
-import { translations, type Lang } from "@/lib/menu-data"
+import Image from "next/image";
+import { ArrowRight } from "lucide-react";
+import { translations, type Lang } from "@/lib/menu-data";
 
 export function MenuHero({ lang }: { lang: Lang }) {
-  const t = translations[lang]
+  const t = translations[lang];
 
   return (
     <section className="relative overflow-hidden bg-charcoal text-cream">
@@ -22,7 +22,7 @@ export function MenuHero({ lang }: { lang: Lang }) {
       <div className="relative max-w-4xl mx-auto px-6 py-16 sm:py-24 text-center flex flex-col items-center">
         <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-full bg-card p-1.5 stamp overflow-hidden mb-6">
           <Image
-            src="/logo.png"
+            src="/logo.jpeg"
             alt="Tabounet Zebdine logo"
             width={160}
             height={160}
@@ -50,5 +50,5 @@ export function MenuHero({ lang }: { lang: Lang }) {
 
       <div className="torn-top bg-cream" />
     </section>
-  )
+  );
 }
