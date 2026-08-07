@@ -1,46 +1,46 @@
-import { Analytics } from '@vercel/analytics/next'
-import type { Metadata, Viewport } from 'next'
-import { Poppins, Inter, Tajawal } from 'next/font/google'
-import './globals.css'
+import { Analytics } from "@vercel/analytics/next";
+import type { Metadata, Viewport } from "next";
+import { Poppins, Inter, Tajawal } from "next/font/google";
+import "./globals.css";
 
 const poppins = Poppins({
-  subsets: ['latin'],
-  weight: ['500', '600', '700', '800'],
-  variable: '--font-poppins',
-})
+  subsets: ["latin"],
+  weight: ["500", "600", "700", "800"],
+  variable: "--font-poppins",
+});
 
 const inter = Inter({
-  subsets: ['latin'],
-  weight: ['400', '500', '600'],
-  variable: '--font-inter',
-})
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
+  variable: "--font-inter",
+});
 
 const tajawal = Tajawal({
-  subsets: ['arabic'],
-  weight: ['400', '500', '700', '800', '900'],
-  variable: '--font-tajawal',
-})
+  subsets: ["arabic"],
+  weight: ["400", "500", "700", "800", "900"],
+  variable: "--font-tajawal",
+});
 
 export const metadata: Metadata = {
-  title: 'Tabounet Zebdine | طابونة زبدين',
+  title: "Tabounet Zebdine | طابونة زبدين",
   description:
-    'Digital menu — Tabounet Zebdine, authentic Lebanese cuisine fresh from the clay oven, daily.',
-  generator: 'v0.app',
+    "Digital menu — Tabounet Zebdine, authentic Lebanese cuisine fresh from the clay oven, daily.",
+  generator: "v0.app",
   icons: {
-    icon: '/logo.png',
-    apple: '/logo.png',
+    icon: "/logo.jpeg",
+    apple: "/logo.jpeg",
   },
-}
+};
 
 export const viewport: Viewport = {
-  colorScheme: 'light',
-  themeColor: '#241E19',
-}
+  colorScheme: "light",
+  themeColor: "#241E19",
+};
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
     <html
@@ -49,8 +49,8 @@ export default function RootLayout({
     >
       <body className="font-body text-foreground antialiased">
         {children}
-        {process.env.NODE_ENV === 'production' && <Analytics />}
+        {process.env.NODE_ENV === "production" && <Analytics />}
       </body>
     </html>
-  )
+  );
 }
