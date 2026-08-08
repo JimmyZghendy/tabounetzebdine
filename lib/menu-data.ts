@@ -137,8 +137,6 @@ export const menuData: MenuCategory[] = [
         ar: "فخارة بيض وقاورما مع ٢ رغيف",
         price: "700,000",
       },
-      { en: "Meat Clay Pot", ar: "فخارة لحمة", price: "900,000" },
-      { en: "Chicken Clay Pot", ar: "فخارة دجاج", price: "900,000" },
     ],
   },
   {
