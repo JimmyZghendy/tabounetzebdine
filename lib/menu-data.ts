@@ -106,18 +106,7 @@ export const menuData: MenuCategory[] = [
         ar: "صحن لبنة مع ٢ رغيف",
         price: "600,000",
       },
-      {
-        en: "Homos Plate with 2 Bread Loaves",
-        ar: "صحن حمص مع ٢ رغيف",
-        price: "500,000",
-      },
-      {
-        en: "Homos Plate with Qawarma & 2 Bread Loaves",
-        ar: "صحن حمص مع قاورما ومع ٢ رغيف",
-        price: "650,000",
-      },
       { en: "Tabbouleh Salad", ar: "صحن تبولة", price: "500,000" },
-      { en: "Stuffed Grape Leaves", ar: "صحن ورق عنب", price: "450,000" },
       { en: "Baked Potato Plate", ar: "صحن بطاطا مشوية", price: "450,000" },
       {
         en: "Vegetable Platter with Olives",
@@ -154,10 +143,17 @@ export const menuData: MenuCategory[] = [
       { en: "Nescafe 3 in 1", ar: "نسكافيه 3 في 1", price: "150,000" },
       { en: "Nescafe 2 in 1", ar: "نسكافيه 2 في 1", price: "150,000" },
       { en: "Arak Quarter", ar: "ربعية عرق", price: "$15", isForeign: true },
+      { en: "Whiskey Glass", ar: "كوب ويسكي", price: "$7", isForeign: true },
       {
         en: "Whiskey Quarter (Red / Chivas)",
         ar: "ربعية ويسكي (Red / Chivas)",
         price: "$20 / $30",
+        isForeign: true,
+      },
+      {
+        en: "Whiskey LArge BTl (Chivas)",
+        ar: "ربعية ويسكي (Red / Chivas)",
+        price: "$50",
         isForeign: true,
       },
       { en: "Shisha", ar: "أركيلة", price: "800,000" },
