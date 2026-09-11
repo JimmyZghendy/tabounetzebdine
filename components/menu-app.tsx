@@ -8,17 +8,17 @@ import { MenuSection } from "@/components/menu-section";
 import { menuData, translations, type Lang } from "@/lib/menu-data";
 
 export function MenuApp() {
-  const [lang, setLang] = useState<Lang>("en");
+  const [lang, setLang] = useState<Lang>("ar");
   const [search, setSearch] = useState("");
   const [activeId, setActiveId] = useState(menuData[0].id);
   const isClickScrolling = useRef(false);
 
   // Keep <html> lang/dir in sync with the selected language.
-  useEffect(() => {
-    const html = document.documentElement;
-    html.lang = lang;
-    html.dir = lang === "ar" ? "rtl" : "ltr";
-  }, [lang]);
+useEffect(() => {
+  const html = document.documentElement;
+  html.lang = lang;
+  html.dir = lang === "ar" ? "rtl" : "ltr";
+}, [lang]);
 
   const query = search.trim().toLowerCase();
 
