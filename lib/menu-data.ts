@@ -152,7 +152,7 @@ export const menuData: MenuCategory[] = [
       },
       {
         en: "Whiskey Btl (Chivas)",
-        ar: "قنينة ويسكي (Red / Chivas)",
+        ar: "قنينة ويسكي (Chivas)",
         price: "$50",
         isForeign: true,
       },
