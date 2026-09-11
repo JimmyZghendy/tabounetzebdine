@@ -140,8 +140,8 @@ export const menuData: MenuCategory[] = [
       { en: "Small Water", ar: "مياه صغير", price: "50,000" },
       { en: "Cup of Tea", ar: "كوب شاي", price: "100,000" },
       { en: "Cup of Coffee", ar: "فنجان قهوة", price: "100,000" },
-      { en: "Nescafe 3 in 1", ar: "نسكافيه 3 في 1", price: "150,000" },
       { en: "Nescafe 2 in 1", ar: "نسكافيه 2 في 1", price: "150,000" },
+      { en: "Nescafe 3 in 1", ar: "نسكافيه 3 في 1", price: "150,000" },
       { en: "Arak Quarter", ar: "ربعية عرق", price: "$15", isForeign: true },
       { en: "Whiskey Glass", ar: "كوب ويسكي", price: "$7", isForeign: true },
       {
