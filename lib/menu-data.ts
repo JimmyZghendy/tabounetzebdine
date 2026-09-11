@@ -151,7 +151,7 @@ export const menuData: MenuCategory[] = [
         isForeign: true,
       },
       {
-        en: "Whiskey Large BTl (Chivas)",
+        en: "Whiskey Btl (Chivas)",
         ar: "قنينة ويسكي (Red / Chivas)",
         price: "$50",
         isForeign: true,
