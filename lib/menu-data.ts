@@ -151,8 +151,8 @@ export const menuData: MenuCategory[] = [
         isForeign: true,
       },
       {
-        en: "Whiskey LArge BTl (Chivas)",
-        ar: "ربعية ويسكي (Red / Chivas)",
+        en: "Whiskey Large BTl (Chivas)",
+        ar: "قنينة ويسكي (Red / Chivas)",
         price: "$50",
         isForeign: true,
       },
